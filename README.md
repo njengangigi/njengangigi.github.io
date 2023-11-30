@@ -1,2 +1,0 @@
-# njengangigi.github.io
-gggggglll
