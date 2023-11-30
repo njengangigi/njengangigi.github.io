@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Today - Artists</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .artist-category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .artist {
+            position: relative;
+            overflow: none;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            flex: 0 0 calc(45% - 20px); /* Adjust the width as needed, considering margins */
+        }
+       
+        .artist:hover {
+            transform: scale(1.05);
+        }
+
+        .artist img {
+            max-width: 1000%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .artist:hover img {
+            transform: scale(1.2);
+        }
+
+        .artist p {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="a.png"alt="Art gallery logo">
+        <h1>Art Today</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="artist.html">Artists</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="registration.html">Registration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <p>Discover the brilliance of our featured artists who contribute to the vibrancy of our gallery.
+            Dive into the kaleidoscope of artistic expressions as our gallery proudly presents a diverse array of talented artists, each weaving their unique narratives through distinct and captivating art styles. From the bold and vibrant strokes of abstract expressionism to the intricate details of realism, our curated collection showcases a tapestry of creativity that transcends boundaries. Explore the dynamic brushwork of contemporary artists, the timeless elegance of classical forms, and the experimental fusion of mixed media creations. Our artists hail from different corners of the globe, bringing cultural influences and personal perspectives that enrich the visual dialogue within our gallery. Whether it's the evocative landscapes, the emotive portraiture, or the avant-garde explorations, each artist contributes a brushstroke to the vibrant canvas of our collective artistic journey. Witness the convergence of various styles, each telling a story as unique as the hands that crafted it.<br></p>
+            <p>
+               <p><h4>In our gallery we embrace all types of artists and art as indicated below :</h4> </p>
+                
+               <div class="artist-category">
+                <h3>Abstract Expressionists</h3>
+                <p>Abstract Expressionists use spontaneous and emotive brushwork to convey emotions and concepts. Explore the dynamic and vibrant creations of these artists.</p>
+                <div class="artist">
+                    <img src="abstract1.jpeg" alt="Artist 1 - Abstract">
+                    
+                </div>
+                <div class="artist">
+                    <img src="abstract2.jpeg" alt="Artist 2 - Abstract">
+                    
+                </div>  <div class="artist">
+                    <img src="abstract3.jpeg" alt="Artist 2 - Abstract">
+                    
+                </div>
+                <!-- Add more artists as needed -->
+            </div>
+    
+            <div class="artist-category">
+                <h3>Realists</h3>
+                <p>Realists strive for accurate and detailed representation of subjects, often depicting scenes from everyday life with precision. Explore the timeless elegance of their creations.</p>
+                <div class="artist">
+                    <img src="realist1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="realist2.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+            <div class="artist">
+                <img src="realist5.jpeg" alt="Artist 2 - Realism">
+                
+            </div></div>
+            <div class="artist">
+                <img src="realist4.jpeg" alt="Artist 2 - Realism">
+                
+            </div> <div class="artist-category">
+                <h3>Contemporary Artists</h3>
+                <p>Explore diverse mediums and unconventional forms.
+                    Reflect current cultural, social, and political influences in their work.
+                    </p>
+                <div class="artist">
+                    <img src="contemporary1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="contemporary2.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+            <div class="artist">
+                <img src="contemporary3.jpeg" alt="Artist 2 - Realism">
+                
+            </div></div>
+            <div class="artist">
+                <img src="contemporary4.jpeg" alt="Artist 2 - Realism">
+                
+            </div>
+            <div class="artist-category">
+                <h3>Classical Artists</h3>
+                <p>Draw inspiration from traditional art forms and techniques.
+                    Often rooted in classical training and academic principles.
+                    </p>
+                <div class="artist">
+                    <img src="classical1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="classical2.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+            <div class="artist">
+                <img src="classical3.jpeg" alt="Artist 2 - Realism">
+                
+            </div></div>
+            <div class="artist">
+                <img src="classical4.jpeg" alt="Artist 2 - Realism">
+                
+            </div> <div class="artist-category">
+                <h3>Sculptors</h3>
+                <p>Create three-dimensional artworks using materials like clay, stone, metal, or wood.
+                    Explore various styles, from realistic to abstract sculptural forms.
+                    </p>
+                <div class="artist">
+                    <img src="sculptors1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="sculptors2.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+            <div class="artist">
+                <img src="sculptors3.jpeg" alt="Artist 2 - Realism">
+                
+            </div>
+             <div class="artist-category">
+                <h3>Photographers:</h3>
+                <p>Utilize the art of photography to capture moments, scenes, and concepts.
+                    Play with light, composition, and visual storytelling.</p>
+                <div class="artist">
+                    <img src="photography1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="photography5.jpg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+            </div>
+            <div class="artist">
+                <img src="photography3.jpeg" alt="Artist 2 - Realism">
+                
+            </div> <div class="artist-category">
+                <h3>Digital Artists</h3>
+                <p>Use digital tools and software to create visual artwork.
+                    Explore a wide range of styles, from digital painting to 3D modeling.
+                    </p>
+               
+                <div class="artist">
+                    <img src="digitalart2.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="digitalart1.jpg" alt="Artist 1 - Realism">
+                    
+                </div>
+            </div>
+           </div>
+            <div class="artist">
+                <img src="digitalart4.jpg" alt="Artist 2 - Realism">
+                
+            </div><div class="artist-category">
+                <h3>Mixed Media Artists:
+                </h3>
+                <p>Combine different materials and techniques in their creations.
+                    Embrace experimentation and the layering of diverse elements.
+                    </p>
+                <div class="artist">
+                    <img src="Mixedart1.jpg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="Mixedart2.jpg" alt="Artist 2 - Realism">
+                    
+                </div>
+                     
+            </div> 
+            <div class="artist-category">
+                <h3>Graphic Designers:
+                </h3>
+                <p>Blend art and technology to communicate visually.
+                    Create designs for branding, marketing, and various digital or print mediums.
+                    </p>
+                <div class="artist">
+                    <img src="graphic1.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="graphic2.webp" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+           <div class="artist-category">
+                <h3>Street Artists:
+                </h3>
+                <p>Create public art often in urban environments.
+                    Use graffiti, murals, and installations to convey messages or beautify spaces.
+                    </p>
+                <div class="artist">
+                    <img src="street3.jpeg" alt="Artist 1 - Realism">
+                    
+                </div>
+                <div class="artist">
+                    <img src="street5.jpeg" alt="Artist 2 - Realism">
+                    
+                </div>
+            </div>
+          
+    
+            <!-- Add more artist categories and artists as needed -->
+    
+        </section>
+    
+    </section>
+
+    <!-- Include common scripts here -->
+<footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="artist.html">Artists</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="registration.html">Registration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+</footer>
+</body>
+</html>
